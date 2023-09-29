@@ -1,0 +1,31 @@
+
+- __Nome:__ Gearmux
+- __Linguagem:__ Rust
+- __Objetivo:__ Criar uma Game Engine desacoplada, capaz de ser modificada para diferentes propósitos (pense como montar um PC)
+- __Descrição:__ 
+	- Free and Open-Source
+	- Modular
+	- Focada em performance
+	- Interface intuitiva
+- __Público-Alvo:__ 
+- __Arquitetura:__ 
+	- ECS
+- __Includes gerais__ 
+	- Matemática básica
+		- Vetores
+		- Potenciação
+	- Renderização básica
+		- Criar janela
+	- Sonorização básica
+	- Controle de recursos
+		- Import
+	- Eventos
+	- Build
+- __Módulos base__
+	- Física básica
+		- Colisão
+		- Velocidade
+		- Gravidade
+	- Debug (não incluso em builds)
+	- Implementação de renderização
+	- Implementação de som
